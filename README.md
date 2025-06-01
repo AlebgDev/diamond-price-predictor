@@ -15,26 +15,12 @@ Este proyecto fue elaborado como parte de una competencia académica en CEUPE (B
 ## 📁 Estructura del Proyecto
 
 diamond-price-predictor/
-│
-├── data/                    # Archivos CSV originales o de ejemplo
-│   ├── diamonds_train.csv
-│   ├── diamonds_test.csv
-│   └── sample_submission.csv
-│
-├── notebooks/               # Análisis exploratorio, experimentos, etc.
-│   └── EDA_and_Model.ipynb
-│
-├── src/                     # Código fuente organizado por funciones
-│   ├── __init__.py
-│   ├── preprocess.py
-│   └── model.py
-│
-├── outputs/                 # Predicciones, visualizaciones, artefactos
-│   └── final_submission.csv
-│
-├── requirements.txt         # Librerías necesarias para correr el proyecto
-├── README.md                # Documentación principal
-└── LICENSE                  # (Opcional) Tipo de licencia si decides compartir
+├── data/ # Datos originales y de prueba
+├── notebooks/ # Análisis y modelado en Jupyter/Colab
+├── src/ # Funciones reutilizables
+├── outputs/ # Resultados del modelo
+├── requirements.txt # Dependencias del entorno
+└── README.md # Este archivo
 
 ## 🔍 EDA (Exploratory Data Analysis)
 
